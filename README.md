@@ -1,3 +1,17 @@
+
+DON'T SERVE IT WITH NG SERVE TO REGISTER THE SERVICE WORKER (EVEN WITH THE PRODUCTION FLAG, IT'S NOT FINDING THE ANGULAR SERVICE WORKER)
+first do:
+ng build --configuration production
+then go to the dist folder, and to the subfolder where the index.html file from the project is, and serve with:
+Terminal 1:
+http-server -c-1 .
+
+TO DEVELOP THE REST OF THE FEATURES, USE ng serve
+
+---------------------------------------------------------------------------------------------------------------
+
+
+
 # AngularPwaApp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.0.0-next.5.
