@@ -33,7 +33,7 @@
             ],
             "styles": [
               "src/styles.scss",
-              "src/bootstrap.min.css"
+              "src/bootstrap.css"
             ],
             "scripts": []
           },
